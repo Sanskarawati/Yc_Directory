@@ -10,7 +10,7 @@ const StartupCard = ({post}:{post:StartupTypeCard}) => {
             <p className="startup_card_date">
                 {formatDate(_createdAt)}
 
-            </p>
+            </p> 
             <div className="flex gap-1.5">
                 <EyeIcon className="size-6 text-primary"/>
                 <span className="text-16-medium">{views}</span>
